@@ -1,3 +1,7 @@
+This is an implementation of the KdTree according to the algorithm from the book Computational Geometry: Algorithms and Applications by de Berg et.al
+
+Implementation only supports 2D range queries. This was meant to be an experiment to compare runtimes between the naive seach and a KDTree search and so doesn't include support for typical KDTree features such as nearest neighbour search and doesn't support higher dimensions.
+
 The tool can be run in three modes:
 
 1. Test run : Runs KdTree search for a predefined test input and prints the tree as console putput
